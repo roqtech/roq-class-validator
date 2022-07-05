@@ -1,5 +1,5 @@
 {
-  "name": "roq-class-validator",
+  "name": "@roq/class-validator",
   "version": "0.0.1",
   "description": "Roq class-validator package",
   "main": "dist/index.js",
