@@ -1,6 +1,6 @@
 import { applyDecorators } from '@nestjs/common';
 import { buildMessage, IsAscii as _IsAscii, ValidationArguments, ValidationOptions } from 'class-validator';
-import { ClassValidatorEnum } from 'src';
+import { ClassValidatorEnum } from '../enums/class-validator.enum';
 
 /**
  * Checks if the string contains ASCII chars only.

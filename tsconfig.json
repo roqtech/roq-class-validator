@@ -4,12 +4,7 @@
     "module": "ESNext",
     "outDir": "./dist",
     "paths": {
-      "src/*": [
-        "src/*"
-      ],
-      "tests/*": [
-        "test/*"
-      ]
+      "@enums": ["src/enums/index.ts"],
     },
     "rootDir": ".",
     "target": "es2017"

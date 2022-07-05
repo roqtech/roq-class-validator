@@ -1,6 +1,6 @@
 import { applyDecorators } from '@nestjs/common';
 import { buildMessage, IsHSL as _IsHSL, ValidationArguments, ValidationOptions } from 'class-validator';
-import { ClassValidatorEnum } from 'src';
+import { ClassValidatorEnum } from '../enums/class-validator.enum';
 
 /**
  * Check if the string is an HSL (hue, saturation, lightness, optional alpha)

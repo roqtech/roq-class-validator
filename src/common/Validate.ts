@@ -1,6 +1,6 @@
 import { applyDecorators } from '@nestjs/common';
 import { buildMessage, Validate as _Validate, ValidationArguments, ValidationOptions } from 'class-validator';
-import { ClassValidatorEnum } from 'src';
+import { ClassValidatorEnum } from '../enums/class-validator.enum';
 
 /**
  * Performs validation based on the given custom validation class.

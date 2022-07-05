@@ -1,6 +1,6 @@
 import { applyDecorators } from '@nestjs/common';
 import { buildMessage, Matches as _Matches, ValidationArguments, ValidationOptions } from 'class-validator';
-import { ClassValidatorEnum } from 'src';
+import { ClassValidatorEnum } from '../enums/class-validator.enum';
 
 /**
  * Checks if string matches the pattern. Either matches('foo', /foo/i).

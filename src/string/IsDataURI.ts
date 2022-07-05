@@ -1,6 +1,6 @@
 import { applyDecorators } from '@nestjs/common';
 import { buildMessage, IsDataURI as _IsDataURI, ValidationArguments, ValidationOptions } from 'class-validator';
-import { ClassValidatorEnum } from 'src';
+import { ClassValidatorEnum } from '../enums/class-validator.enum';
 
 /**
  * Check if the string is a data uri format.

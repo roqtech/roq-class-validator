@@ -5,7 +5,7 @@ import {
   ValidationArguments,
   ValidationOptions,
 } from 'class-validator';
-import { ClassValidatorEnum } from 'src';
+import { ClassValidatorEnum } from '../enums/class-validator.enum';
 
 /**
  * Check if the string is an Ethereum address using basic regex. Does not validate address checksums.

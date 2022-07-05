@@ -1,6 +1,6 @@
 import { applyDecorators } from '@nestjs/common';
 import { IsOptional as _IsOptional, ValidationArguments, ValidationOptions } from 'class-validator';
-import { ClassValidatorEnum } from 'src';
+import { ClassValidatorEnum } from '../enums/class-validator.enum';
 
 /**
  * Checks if given value is not empty (!== '', !== null, !== undefined).

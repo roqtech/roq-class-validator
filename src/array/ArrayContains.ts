@@ -1,6 +1,6 @@
 import { applyDecorators } from '@nestjs/common';
 import { ArrayContains as _ArrayContains, buildMessage, ValidationArguments, ValidationOptions } from 'class-validator';
-import { ClassValidatorEnum } from 'src';
+import { ClassValidatorEnum } from '../enums/class-validator.enum';
 
 /**
  * Checks if array contains all values from the given array of values.

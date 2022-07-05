@@ -1,6 +1,6 @@
 import { applyDecorators } from '@nestjs/common';
 import { ArrayNotEmpty as _ArrayNotEmpty, buildMessage, ValidationArguments, ValidationOptions } from 'class-validator';
-import { ClassValidatorEnum } from 'src';
+import { ClassValidatorEnum } from '../enums/class-validator.enum';
 
 /**
  * Checks if given array is not empty.

@@ -1,6 +1,6 @@
 import { applyDecorators } from '@nestjs/common';
 import { ValidateIf as _ValidateIf, ValidationArguments, ValidationOptions } from 'class-validator';
-import { ClassValidatorEnum } from 'src';
+import { ClassValidatorEnum } from '../enums/class-validator.enum';
 
 /**
  * Ignores the other validators on a property when the provided condition function returns false.

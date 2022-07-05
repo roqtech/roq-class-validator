@@ -5,7 +5,7 @@ import {
   ValidationArguments,
   ValidationOptions,
 } from 'class-validator';
-import { ClassValidatorEnum } from 'src';
+import { ClassValidatorEnum } from '../enums/class-validator.enum';
 
 /**
  * Checks if array does not contain any of the given values.

@@ -6,7 +6,7 @@ import {
   ValidationArguments,
   ValidationOptions,
 } from 'class-validator';
-import { ClassValidatorEnum } from 'src';
+import { ClassValidatorEnum } from '../enums/class-validator.enum';
 
 /**
  * Checks if a value is a number.

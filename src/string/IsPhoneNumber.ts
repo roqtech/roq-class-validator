@@ -1,7 +1,7 @@
 import { applyDecorators } from '@nestjs/common';
 import { buildMessage, IsPhoneNumber as _IsPhoneNumber, ValidationArguments, ValidationOptions } from 'class-validator';
 import { CountryCode } from 'libphonenumber-js';
-import { ClassValidatorEnum } from 'src';
+import { ClassValidatorEnum } from '../enums/class-validator.enum';
 
 /**
  * Checks if the string is a valid phone number. To successfully validate any phone number the text must include

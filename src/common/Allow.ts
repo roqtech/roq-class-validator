@@ -1,6 +1,6 @@
 import { applyDecorators } from '@nestjs/common';
 import { Allow as _Allow, ValidationArguments, ValidationOptions } from 'class-validator';
-import { ClassValidatorEnum } from 'src';
+import { ClassValidatorEnum } from '../enums/class-validator.enum';
 
 /**
  * If object has both allowed and not allowed properties a validation error will be thrown.

@@ -5,7 +5,7 @@ import {
   ValidationArguments,
   ValidationOptions,
 } from 'class-validator';
-import { ClassValidatorEnum } from 'src';
+import { ClassValidatorEnum } from '../enums/class-validator.enum';
 
 /**
  * Objects / object arrays marked with this decorator will also be validated.

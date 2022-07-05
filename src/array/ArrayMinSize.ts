@@ -1,6 +1,6 @@
 import { applyDecorators } from '@nestjs/common';
 import { ArrayMinSize as _ArrayMinSize, buildMessage, ValidationArguments, ValidationOptions } from 'class-validator';
-import { ClassValidatorEnum } from 'src';
+import { ClassValidatorEnum } from '../enums/class-validator.enum';
 
 /**
  * Checks if the array's length is greater than or equal to the specified number.
