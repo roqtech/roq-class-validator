@@ -1,0 +1,42 @@
+{
+  "name": "roq-class-validator",
+  "version": "0.0.1",
+  "description": "Roq class-validator package",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roqtech/roq-class-validator.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roqtech/roq-class-validator/issues"
+  },
+  "homepage": "https://github.com/roqtech/roq-class-validator#readme",
+  "volta": {
+    "node": "16.15.1",
+    "npm": "7.24.2"
+  },
+  "dependencies": {
+    "@nestjs/common": "^8.4.7",
+    "@nestjs/graphql": "^9.1.2",
+    "class-validator": "^0.13.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.3",
+    "rollup": "^2.75.7",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-esbuild": "^4.9.1"
+  }
+}
